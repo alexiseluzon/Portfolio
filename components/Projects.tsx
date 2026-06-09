@@ -5,8 +5,9 @@ const projects = [
     title: "PediaLink",
     description:
       "A Progressive Web App for pediatric health management — built as my capstone project and deployed live. Enables parents to book appointments, track vaccinations, and message their pediatrician in real time. Built with Angular PWA, Laravel, and MySQL, hosted on Hostinger.",
-    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger"],
+    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Laravel Pusher", "Laravel Echo"],
     link: "https://pedialink.site",
+    vercelLink: "https://pedia-link.vercel.app",
     github: "https://github.com/alexiseluzon/PediaEaseFrontend",
     featured: true,
   },
@@ -187,6 +188,23 @@ export default function Projects() {
                 }}
               >
                 Visit Live Site ↗
+              </a>
+            )}
+            {project.vercelLink && (
+              <a
+                href={project.vercelLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "var(--accent)",
+                  fontSize: "0.85rem",
+                  textDecoration: "none",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.4rem",
+                }}
+              >
+                Visit on Vercel ↗
               </a>
             )}
             {project.github && (
