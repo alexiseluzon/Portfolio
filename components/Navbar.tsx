@@ -85,6 +85,21 @@ export default function Navbar() {
             </a>
           </li>
         ))}
+        <a href="https://github.com/alexiseluzon/your-portfolio-repo"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "var(--text-muted)",
+            fontSize: "0.9rem",
+            letterSpacing: "0.5px",
+            textDecoration: "none",
+            transition: "color 0.2s",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--accent)")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
+        >
+          View Source Code
+        </a>
       </ul>
 
       {/* Mobile hamburger */}
