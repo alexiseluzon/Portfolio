@@ -5,16 +5,16 @@ const projects = [
     title: "PediaLink",
     description:
       "A Progressive Web App for pediatric health management — built as my capstone project and deployed live. Enables parents to book appointments, track vaccinations, and message their pediatrician in real time. Built with Angular PWA, Laravel, and MySQL, hosted on Hostinger.",
-    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Laravel Pusher", "Laravel Echo"],
+    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
     link: "https://pedialink.site",
     vercelLink: "https://pedia-link.vercel.app",
     github: "https://github.com/alexiseluzon/PediaEaseFrontend",
     featured: true,
   },
   {
-    title: "Inventory System",
+    title: "Inventory Management System",
     description:
-      "A full-stack inventory management system for tracking items, borrowed items, and damaged items across school levels. Built with Laravel, Inertia.js, and Vue.js.",
+      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Inertia.js, and Vue.js.",
     tags: ["Laravel", "Inertia.js", "Vue.js", "MySQL"],
     link: "https://inventory-laravel-inertia.pedialink.site",
     github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",

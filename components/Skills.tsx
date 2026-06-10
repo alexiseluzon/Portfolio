@@ -16,7 +16,7 @@ const skillGroups = [
   },
   {
     category: "Tools & DevOps",
-    skills: ["Git", "GitHub", "VS Code"],
+    skills: ["Git", "GitHub", "VS Code", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
   },
 ];
 

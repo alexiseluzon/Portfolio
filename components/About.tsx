@@ -1,6 +1,11 @@
 "use client";
 
 export default function About() {
+  <style>{`
+    @media (max-width: 640px) {
+      .about-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+    }
+  `}</style>
   return (
     <section
       id="about"
@@ -41,7 +46,7 @@ export default function About() {
           gap: "4rem",
           alignItems: "start",
         }}
-        className="flex flex-col md:grid"
+        className="about-grid"
       >
         <div
           style={{
