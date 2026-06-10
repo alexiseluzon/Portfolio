@@ -91,7 +91,7 @@ export default function About() {
           }}
         >
           {[
-            { label: "Projects", value: "7+" },
+            // { label: "Projects", value: "7+" },
             { label: "Role", value: "Full Stack Dev" },
             { label: "Status", value: "Open to Work" },
             { label: "Location", value: "Philippines" },
