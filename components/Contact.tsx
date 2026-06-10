@@ -1,7 +1,7 @@
 "use client";
 
 const socials = [
-  { label: "Resume", href: "/resume.pdf" },
+  { label: "Resume", href: "/Resume.pdf" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/alexis-luzon-63849238b", icon: "LI" },
   { label: "Email", href: 
     "https://mail.google.com/mail/?view=cm&to=alexiseluzon@gmail.com&su=Hello from your portfolio" },

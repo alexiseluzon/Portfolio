@@ -20,41 +20,14 @@ const projects = [
     github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
     featured: false,
   },
-  // {
-  //   title: "Coming Soon",
-  //   description: "Next project in progress. Check back soon.",
-  //   tags: [],
-  //   link: null,
-  //   featured: false,
-  // },
-  // {
-  //   title: "Coming Soon",
-  //   description: "Next project in progress. Check back soon.",
-  //   tags: [],
-  //   link: null,
-  //   featured: false,
-  // },
-  // {
-  //   title: "Coming Soon",
-  //   description: "Next project in progress. Check back soon.",
-  //   tags: [],
-  //   link: null,
-  //   featured: false,
-  // },
-  // {
-  //   title: "Coming Soon",
-  //   description: "Next project in progress. Check back soon.",
-  //   tags: [],
-  //   link: null,
-  //   featured: false,
-  // },
-  // {
-  //   title: "Coming Soon",
-  //   description: "Next project in progress. Check back soon.",
-  //   tags: [],
-  //   link: null,
-  //   featured: false,
-  // },
+  {
+    title: "Coming Soon",
+    description: "Next project in progress. Check back soon.",
+    tags: [],
+    link: null,
+    github: "",
+    featured: false,
+  },
 ];
 
 export default function Projects() {
