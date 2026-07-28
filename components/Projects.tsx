@@ -12,20 +12,40 @@ const projects = [
     featured: true,
   },
   {
-    title: "Inventory Management System",
+    title: "StaySwift",
     description:
-      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Inertia.js, and Vue.js.",
-    tags: ["Laravel", "Inertia.js", "Vue.js", "MySQL"],
+      "A hotel reservation system for browsing rooms, managing bookings, and handling reservation workflows. Built with CSS, JS, Laravel, and MySQL, hosted on Hostinger.",
+    tags: ["CSS", "JS", "Laravel", "MySQL", "Hostinger"],
+    link: "https://stayswift.pedialink.site",
+    github: "https://github.com/alexiseluzon/LaravelLuminaries-StaySwift-Hotel-Reservation-Application",
+    featured: false,
+  },
+  {
+    title: "AssetTrack",
+    description:
+      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
+    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
     link: "https://inventory-laravel-inertia.pedialink.site",
     github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
     featured: false,
   },
   {
-    title: "Coming Soon",
-    description: "Next project in progress. Check back soon.",
-    tags: [],
+    title: "WellData",
+    description:
+      "A public-facing data exploration dashboard consuming a live ArcGIS REST FeatureServer. Features ArcGIS Maps SDK integration with dynamic query-builder filters, a multi-series Chart.js visualization, CSV/JSON export, and WCAG 2.1 AA accessibility compliance verified with automated axe-core scanning. Core logic covered by 17 Jest unit tests.",
+    tags: ["ArcGIS Maps SDK", "Chart.js", "Jest", "axe-core", "WCAG 2.1 AA"],
+    link: "https://welldata.vercel.app",
+    github: "https://github.com/alexiseluzon/Regional-Wells-Data-Dashboard",
+    featured: false,
+  },
+  {
+    title: "TestPipe",
+    description:
+      "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
+    tags: ["Jest", "Supertest", "Playwright", "Husky", "Azure DevOps", "CI/CD"],
     link: null,
-    github: "",
+    // link: "https://testpipe.vercel.app",
+    github: "https://github.com/alexiseluzon/Testing-and-CI",
     featured: false,
   },
 ];
@@ -194,7 +214,7 @@ export default function Projects() {
                   gap: "0.4rem",
                 }}
               >
-                View on GitHub ↗
+                Request access on GitHub ↗
               </a>
             )}
           </div>
