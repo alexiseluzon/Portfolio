@@ -3,8 +3,8 @@
 const skillGroups = [
   {
     category: "Frontend",
-    skills: ["Angular", "Vue.js", "Ionic", "Next.js", "Flutter", "React Native", "TypeScript",
-       "Tailwind CSS", "HTML/CSS"],
+    skills: ["Angular", "Vue", "Ionic", "Next.js", "Flutter", "React Native", "TypeScript",
+       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)"],
   },
   {
     category: "Backend",
@@ -15,8 +15,16 @@ const skillGroups = [
     skills: ["MySQL"],
   },
   {
-    category: "Tools & DevOps",
-    skills: ["Git", "GitHub", "VS Code", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
+    category: "Tools",
+    skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
+  },
+  {
+    category: "Mapping/Visualization",
+    skills: ["ArcGIS", "Maps", "SDK for JS", "Chart.js"],
+  },
+  {
+    category: "Testing",
+    skills: ["Jest", "Supertest (integration)", "Playwright (E2E)"],
   },
 ];
 

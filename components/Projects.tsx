@@ -48,6 +48,15 @@ const projects = [
     github: "https://github.com/alexiseluzon/Testing-and-CI",
     featured: false,
   },
+  {
+    title: "BundleDemo",
+    description:
+      "A Shopify practice project built to demonstrate theme customization and offer-building skills. Includes a custom Liquid section for trust badges and a 'Buy 2 Get 1 Free' bundle page using the Shopify AJAX Cart API. (password: bundledemo)",
+    tags: ["Shopify", "Liquid", "JavaScript"],
+    link: "https://demo-td4j8bty.myshopify.com",
+    github: null,
+    featured: false,
+  },
 ];
 
 export default function Projects() {
