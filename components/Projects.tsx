@@ -39,6 +39,16 @@ const projects = [
     featured: false,
   },
   {
+    title: "PageSpeed Optimization Demo",
+    description:
+      "A before/after case study demonstrating Core Web Vitals and technical SEO optimization. Fixed a deliberately unoptimized site: reduced image payload 99% (48MB→~500KB) via WebP conversion and responsive srcset delivery, deferred render-blocking JS/CSS, removed unused dependencies, and corrected invalid JSON-LD Organization schema to pass Google's Rich Results Test. Mobile Performance 64→90, Desktop Performance 65→99, SEO 82→100 (PageSpeed Insights).",
+    tags: ["Core Web Vitals", "JSON-LD", "WebP", "PageSpeed Insights", "Technical SEO"],
+    caseStudyLink: "/case-studies/pagespeed",
+    link: "https://pagespeed-demo.vercel.app",
+    github: "https://github.com/alexiseluzon/PageSpeed-Demo",
+    featured: false,
+  },
+  {
     title: "TestPipe",
     description:
       "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
@@ -173,7 +183,22 @@ export default function Projects() {
                 ))}
               </div>
             )}
-
+            {project.caseStudyLink && (
+              <a
+                href={project.caseStudyLink}
+                style={{
+                  marginTop: "auto",
+                  color: "var(--accent)",
+                  fontSize: "0.85rem",
+                  textDecoration: "none",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.4rem",
+                }}
+              >
+                View Case Study ↗
+              </a>
+            )}
             {project.link && (
               <a
                 href={project.link}
