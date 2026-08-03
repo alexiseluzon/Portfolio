@@ -60,7 +60,7 @@ export default function About() {
           <p>
             I&apos;m a Full Stack Developer based in the Philippines, passionate
             about crafting end-to-end web solutions that are fast, scalable, and
-            maintainable. I love the full spectrum — from pixel-perfect UIs to
+            maintainable. I work across the MERN and Laravel stacks — from pixel-perfect UIs to
             efficient server-side architecture.
           </p>
           <p>
