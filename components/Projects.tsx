@@ -21,12 +21,12 @@ const projects = [
     featured: false,
   },
   {
-    title: "AssetTrack",
+    title: "TaskFlow",
     description:
-      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
-    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
-    link: "https://inventory-laravel-inertia.pedialink.site",
-    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
+      "A full-stack task and project management app built to match MERN job requirements. Features JWT authentication with role-based authorization, RESTful API design, MongoDB with compound indexing, pagination, centralized error handling, and a responsive React dashboard. Includes unit and component tests (Vitest, Testing Library). Deployed serverless on Vercel with MongoDB Atlas.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Vitest", "Vercel"],
+    link: "https://frontendtaskflow.vercel.app",
+    github: "https://github.com/alexiseluzon/taskflow-frontend",
     featured: false,
   },
   {
@@ -39,13 +39,22 @@ const projects = [
     featured: false,
   },
   {
-    title: "PageSpeed Optimization Demo",
+    title: "PageSpeed",
     description:
       "A before/after case study demonstrating Core Web Vitals and technical SEO optimization. Fixed a deliberately unoptimized site: reduced image payload 99% (48MB→~500KB) via WebP conversion and responsive srcset delivery, deferred render-blocking JS/CSS, removed unused dependencies, and corrected invalid JSON-LD Organization schema to pass Google's Rich Results Test. Mobile Performance 64→90, Desktop Performance 65→99, SEO 82→100 (PageSpeed Insights).",
     tags: ["Core Web Vitals", "JSON-LD", "WebP", "PageSpeed Insights", "Technical SEO"],
     caseStudyLink: "/case-studies/pagespeed",
     link: "https://pagespeed-demo.vercel.app",
     github: "https://github.com/alexiseluzon/PageSpeed-Demo",
+    featured: false,
+  },
+  {
+    title: "AssetTrack",
+    description:
+      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
+    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
+    link: "https://inventory-laravel-inertia.pedialink.site",
+    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
     featured: false,
   },
   {

@@ -84,11 +84,11 @@ export default function PageSpeedCaseStudy() {
       <h2 style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: "1.5rem" }}>Mobile</h2>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "3rem" }}>
         <figure style={{ margin: 0 }}>
-          <img src="/case-study/mobile-before.jpg" alt="Mobile PageSpeed score before optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--border)" }} />
+          <img src="/case-studies/pagespeed/mobile-before.jpg" alt="Mobile PageSpeed score before optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--border)" }} />
           <figcaption style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "0.5rem" }}>Before</figcaption>
         </figure>
         <figure style={{ margin: 0 }}>
-          <img src="/case-study/mobile-after.jpg" alt="Mobile PageSpeed score after optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--accent)" }} />
+          <img src="/case-studies/pagespeed/mobile-after.jpg" alt="Mobile PageSpeed score after optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--accent)" }} />
           <figcaption style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--accent)", marginTop: "0.5rem" }}>After</figcaption>
         </figure>
       </div>
@@ -96,11 +96,11 @@ export default function PageSpeedCaseStudy() {
       <h2 style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: "1.5rem" }}>Desktop</h2>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "3rem" }}>
         <figure style={{ margin: 0 }}>
-          <img src="/case-study/desktop-before.jpg" alt="Desktop PageSpeed score before optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--border)" }} />
+          <img src="/case-studies/pagespeed/desktop-before.jpg" alt="Desktop PageSpeed score before optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--border)" }} />
           <figcaption style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--text-muted)", marginTop: "0.5rem" }}>Before</figcaption>
         </figure>
         <figure style={{ margin: 0 }}>
-          <img src="/case-study/desktop-after.jpg" alt="Desktop PageSpeed score after optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--accent)" }} />
+          <img src="/case-studies/pagespeed/desktop-after.jpg" alt="Desktop PageSpeed score after optimization" style={{ width: "100%", borderRadius: "8px", border: "1px solid var(--accent)" }} />
           <figcaption style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--accent)", marginTop: "0.5rem" }}>After</figcaption>
         </figure>
       </div>

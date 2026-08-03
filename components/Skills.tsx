@@ -8,15 +8,16 @@ const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["REST APIs", "PHP", "Laravel"],
+    skills: ["REST APIs", "PHP", "Laravel", , "Node.js", , "Express.js"],
   },
   {
     category: "Database",
-    skills: ["MySQL"],
+    skills: ["MySQL", "MongoDB"],
   },
   {
     category: "Tools",
-    skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
+    skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
+              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT"],
   },
   {
     category: "Mapping/Visualization",
