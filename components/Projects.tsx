@@ -39,6 +39,16 @@ const projects = [
     featured: false,
   },
   {
+    title: "CleanCo — Programmatic SEO Demo",
+    description:
+      "A Next.js programmatic SEO system generating 60+ indexable location pages (state → city hierarchy) from a single data source. Includes auto-generated sitemap.xml, canonical tags, per-page LocalBusiness JSON-LD, and internal linking architecture — built to solve real indexing/crawlability problems at scale.",
+    tags: ["Next.js", "TypeScript", "Technical SEO", "JSON-LD", "Sitemap", "SSG"],
+    caseStudyLink: "/case-studies/cleanco-seo",
+    link: "https://cleanco-programmaticseo.vercel.app",
+    github: "https://github.com/alexiseluzon/Programmatic-SEO-Demo",
+    featured: false,
+  },
+  {
     title: "PageSpeed",
     description:
       "A before/after case study demonstrating Core Web Vitals and technical SEO optimization. Fixed a deliberately unoptimized site: reduced image payload 99% (48MB→~500KB) via WebP conversion and responsive srcset delivery, deferred render-blocking JS/CSS, removed unused dependencies, and corrected invalid JSON-LD Organization schema to pass Google's Rich Results Test. Mobile Performance 64→90, Desktop Performance 65→99, SEO 82→100 (PageSpeed Insights).",
