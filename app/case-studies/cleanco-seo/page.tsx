@@ -120,6 +120,58 @@ export default function CleanCoCaseStudy() {
           marginBottom: "1.25rem",
         }}
       >
+        Search Console Verification
+      </h2>
+
+      <p
+        style={{
+          color: "var(--text-muted)",
+          fontSize: "0.9rem",
+          lineHeight: 1.7,
+          marginBottom: "1.5rem",
+        }}
+      >
+        Confirmed via Google Search Console that the page is technically
+        crawlable with no blockers, and discovered through the submitted
+        sitemap — indexing is in progress as expected for a newly launched
+        domain.
+      </p>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "1rem",
+          marginBottom: "3rem",
+        }}
+      >
+        <img
+          src="/case-studies/cleanco-seo/live-test.png"
+          alt="Google Search Console Live Test showing URL is available to Google"
+          style={{
+            width: "100%",
+            borderRadius: "8px",
+            border: "1px solid var(--border)",
+          }}
+        />
+        <img
+          src="/case-studies/cleanco-seo/index-status.png"
+          alt="Google Search Console showing page discovered via sitemap, indexing in progress"
+          style={{
+            width: "100%",
+            borderRadius: "8px",
+            border: "1px solid var(--border)",
+          }}
+        />
+      </div>
+
+      <h2
+        style={{
+          fontSize: "1.2rem",
+          fontWeight: 600,
+          marginBottom: "1.25rem",
+        }}
+      >
         Verification &amp; Proof
       </h2>
 
