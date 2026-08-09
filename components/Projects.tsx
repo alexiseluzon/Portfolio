@@ -21,6 +21,15 @@ const projects = [
     featured: false,
   },
   {
+    title: "AssetTrack",
+    description:
+      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
+    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
+    link: "https://inventory-laravel-inertia.pedialink.site",
+    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
+    featured: false,
+  },
+  {
     title: "TaskFlow",
     description:
       "A full-stack task and project management app built to match MERN job requirements. Features JWT authentication with role-based authorization, RESTful API design, MongoDB with compound indexing, pagination, centralized error handling, and a responsive React dashboard. Includes unit and component tests (Vitest, Testing Library). Deployed serverless on Vercel with MongoDB Atlas.",
@@ -59,12 +68,12 @@ const projects = [
     featured: false,
   },
   {
-    title: "AssetTrack",
+    title: "Feedback Tracker",
     description:
-      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
-    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
-    link: "https://inventory-laravel-inertia.pedialink.site",
-    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
+      "A client feedback and feature-request tracker with a full status workflow (Open → In Progress → Done). Built to match a Vue/Node/Prisma/PostgreSQL job stack. Features optimistic UI updates with rollback on failure, disabled-state form validation, and confirmation dialogs before destructive actions. Backend follows a thin-controller pattern with centralized error handling and input validation.",
+    tags: ["Vue 3", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Vercel"],
+    link: "https://feedback-track.vercel.app",
+    github: "https://github.com/alexiseluzon/Feedback-Tracker",
     featured: false,
   },
   {
