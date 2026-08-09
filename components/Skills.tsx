@@ -3,16 +3,22 @@
 const skillGroups = [
   {
     category: "Frontend",
-    skills: ["Angular", "Vue", "Ionic", "Next.js", "Flutter", "React Native", "TypeScript",
+    skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "TypeScript",
        "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)"],
   },
   {
     category: "Backend",
-    skills: ["REST APIs", "PHP", "Laravel", , "Node.js", , "Express.js"],
+    skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express"],
+  },
+  {
+    category: "Technical SEO",
+    skills: ["Sitemap/robots.txt Architecture", "Canonical Tags", "JSON-LD structured data", 
+      "Core Web Vitals", "Programmatic/Dynamic Page Generation", "Google Search Console", 
+      "Rich Results Test"],
   },
   {
     category: "Database",
-    skills: ["MySQL", "MongoDB"],
+    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma"],
   },
   {
     category: "Tools",
@@ -21,7 +27,7 @@ const skillGroups = [
   },
   {
     category: "Mapping/Visualization",
-    skills: ["ArcGIS", "Maps", "SDK for JS", "Chart.js"],
+    skills: ["CSS", "ArcGIS", "Maps", "SDK for JS", "Chart.js"],
   },
   {
     category: "Testing",
