@@ -12,7 +12,7 @@ const skillGroups = [
   },
   {
     category: "Technical SEO",
-    skills: ["Sitemap/robots.txt Architecture", "Canonical Tags", "JSON-LD structured data", 
+    skills: ["Sitemap/robots.txt Architecture", "Canonical Tags", "JSON-LD Structured Data", 
       "Core Web Vitals", "Programmatic/Dynamic Page Generation", "Google Search Console", 
       "Rich Results Test"],
   },

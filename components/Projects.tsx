@@ -12,15 +12,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "StaySwift",
-    description:
-      "A hotel reservation system for browsing rooms, managing bookings, and handling reservation workflows. Built with CSS, JS, Laravel, and MySQL, hosted on Hostinger.",
-    tags: ["CSS", "JS", "Laravel", "MySQL", "Hostinger"],
-    link: "https://stayswift.pedialink.site",
-    github: "https://github.com/alexiseluzon/LaravelLuminaries-StaySwift-Hotel-Reservation-Application",
-    featured: false,
-  },
-  {
     title: "AssetTrack",
     description:
       "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
@@ -30,13 +21,31 @@ const projects = [
     featured: false,
   },
   {
+    title: "StaySwift",
+    description:
+      "A hotel reservation system for browsing rooms, managing bookings, and handling reservation workflows. Built with CSS, JS, Laravel, and MySQL, hosted on Hostinger.",
+    tags: ["CSS", "JS", "Laravel", "MySQL", "Hostinger"],
+    link: "https://stayswift.pedialink.site",
+    github: "https://github.com/alexiseluzon/LaravelLuminaries-StaySwift-Hotel-Reservation-Application",
+    featured: true,
+  },
+  {
     title: "TaskFlow",
     description:
       "A full-stack task and project management app built to match MERN job requirements. Features JWT authentication with role-based authorization, RESTful API design, MongoDB with compound indexing, pagination, centralized error handling, and a responsive React dashboard. Includes unit and component tests (Vitest, Testing Library). Deployed serverless on Vercel with MongoDB Atlas.",
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Vitest", "Vercel"],
     link: "https://frontendtaskflow.vercel.app",
     github: "https://github.com/alexiseluzon/taskflow-frontend",
-    featured: false,
+    featured: true,
+  },
+  {
+    title: "Willow Demo — Full-Stack Follow-up Tracker",
+    description:
+      "A full-stack internal tool built with Next.js App Router, demonstrating Server Components, Server Actions, and API routes in one codebase. Backed by Prisma + PostgreSQL (Neon) with a relational schema (tickets → notes). Integrates a live n8n webhook workflow that creates tickets from external automation, mirroring a real low-code-to-code migration pattern. Includes disabled-state form validation, delete confirmation dialogs, and Asia/Manila-formatted timestamps.",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "n8n", "Server Actions", "Vercel"],
+    link: "https://willow-demo.vercel.app/tickets",
+    github: "https://github.com/alexiseluzon/willow-demo",
+    featured: true,
   },
   {
     title: "WellData",
@@ -45,7 +54,7 @@ const projects = [
     tags: ["ArcGIS Maps SDK", "Chart.js", "Jest", "axe-core", "WCAG 2.1 AA"],
     link: "https://welldata.vercel.app",
     github: "https://github.com/alexiseluzon/Regional-Wells-Data-Dashboard",
-    featured: false,
+    featured: true,
   },
   {
     title: "CleanCo — Programmatic SEO Demo",
@@ -55,7 +64,7 @@ const projects = [
     caseStudyLink: "/case-studies/cleanco-seo",
     link: "https://cleanco-programmaticseo.vercel.app",
     github: "https://github.com/alexiseluzon/Programmatic-SEO-Demo",
-    featured: false,
+    featured: true,
   },
   {
     title: "PageSpeed",
@@ -65,7 +74,7 @@ const projects = [
     caseStudyLink: "/case-studies/pagespeed",
     link: "https://pagespeed-demo.vercel.app",
     github: "https://github.com/alexiseluzon/PageSpeed-Demo",
-    featured: false,
+    featured: true,
   },
   {
     title: "Feedback Tracker",
@@ -74,7 +83,7 @@ const projects = [
     tags: ["Vue 3", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Vercel"],
     link: "https://feedback-track.vercel.app",
     github: "https://github.com/alexiseluzon/Feedback-Tracker",
-    featured: false,
+    featured: true,
   },
   {
     title: "TestPipe",
@@ -84,7 +93,7 @@ const projects = [
     link: null,
     // link: "https://testpipe.vercel.app",
     github: "https://github.com/alexiseluzon/Testing-and-CI",
-    featured: false,
+    featured: true,
   },
   {
     title: "BundleDemo",
@@ -93,7 +102,7 @@ const projects = [
     tags: ["Shopify", "Liquid", "JavaScript"],
     link: "https://demo-td4j8bty.myshopify.com",
     github: null,
-    featured: false,
+    featured: true,
   },
 ];
 
