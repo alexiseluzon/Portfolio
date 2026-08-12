@@ -30,6 +30,15 @@ const projects = [
     featured: true,
   },
   {
+  title: "Parts Marketplace",
+      description:
+        "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Features JWT authentication via httpOnly cookies, ownership-scoped CRUD authorization, and a GraphQL API (Apollo Server) backed by PostgreSQL (Neon) via Prisma. Includes toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
+      tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "PostgreSQL", "Prisma", "Render", "Vercel"],
+      link: "https://partsmarketplace.vercel.app",
+      github: "https://github.com/alexiseluzon/Parts-Marketplace",
+      featured: true,
+    },
+  {
     title: "TaskFlow",
     description:
       "A full-stack task and project management app built to match MERN job requirements. Features JWT authentication with role-based authorization, RESTful API design, MongoDB with compound indexing, pagination, centralized error handling, and a responsive React dashboard. Includes unit and component tests (Vitest, Testing Library). Deployed serverless on Vercel with MongoDB Atlas.",
@@ -44,7 +53,16 @@ const projects = [
       "A full-stack internal tool built with Next.js App Router, demonstrating Server Components, Server Actions, and API routes in one codebase. Backed by Prisma + PostgreSQL (Neon) with a relational schema (tickets → notes). Integrates a live n8n webhook workflow that creates tickets from external automation, mirroring a real low-code-to-code migration pattern. Includes disabled-state form validation, delete confirmation dialogs, and Asia/Manila-formatted timestamps.",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "n8n", "Server Actions", "Vercel"],
     link: "https://willow-demo.vercel.app/tickets",
-    github: "https://github.com/alexiseluzon/willow-demo",
+    github: "https://github.com/alexiseluzon/Willow-Demo",
+    featured: true,
+  },
+  {
+    title: "Feedback Tracker",
+    description:
+      "A client feedback and feature-request tracker with a full status workflow (Open → In Progress → Done). Built to match a Vue/Node/Prisma/PostgreSQL job stack. Features optimistic UI updates with rollback on failure, disabled-state form validation, and confirmation dialogs before destructive actions. Backend follows a thin-controller pattern with centralized error handling and input validation.",
+    tags: ["Vue 3", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Vercel"],
+    link: "https://feedback-track.vercel.app",
+    github: "https://github.com/alexiseluzon/Feedback-Tracker",
     featured: true,
   },
   {
@@ -74,15 +92,6 @@ const projects = [
     caseStudyLink: "/case-studies/pagespeed",
     link: "https://pagespeed-demo.vercel.app",
     github: "https://github.com/alexiseluzon/PageSpeed-Demo",
-    featured: true,
-  },
-  {
-    title: "Feedback Tracker",
-    description:
-      "A client feedback and feature-request tracker with a full status workflow (Open → In Progress → Done). Built to match a Vue/Node/Prisma/PostgreSQL job stack. Features optimistic UI updates with rollback on failure, disabled-state form validation, and confirmation dialogs before destructive actions. Backend follows a thin-controller pattern with centralized error handling and input validation.",
-    tags: ["Vue 3", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Vercel"],
-    link: "https://feedback-track.vercel.app",
-    github: "https://github.com/alexiseluzon/Feedback-Tracker",
     featured: true,
   },
   {

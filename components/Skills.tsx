@@ -4,26 +4,29 @@ const skillGroups = [
   {
     category: "Frontend",
     skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "TypeScript",
-       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)"],
+       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", "JavaScript", 
+       "Responsive Design", "Accessibility (WCAG 2.1)", "Cross-Browser Compatibility", 
+       "Performance Optimization", "Apollo Client", "GraphQL"],
   },
   {
     category: "Backend",
-    skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express"],
+    skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server", 
+      "JWT Authentication", "Serverless Functions"],
   },
   {
     category: "Technical SEO",
     skills: ["Sitemap/robots.txt Architecture", "Canonical Tags", "JSON-LD Structured Data", 
       "Core Web Vitals", "Programmatic/Dynamic Page Generation", "Google Search Console", 
-      "Rich Results Test"],
+      "Rich Results Test", "PageSpeed Insights", "Lighthouse Audits", "SEO Audits"],
   },
   {
     category: "Database",
-    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma"],
+    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)"],
   },
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
-              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT"],
+              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render"],
   },
   {
     category: "Mapping/Visualization",
@@ -31,7 +34,7 @@ const skillGroups = [
   },
   {
     category: "Testing",
-    skills: ["Jest", "Supertest (integration)", "Playwright (E2E)"],
+    skills: ["Jest", "Supertest (integration)", "Playwright (E2E)", "Vitest", "Testing Library (React)"],
   },
 ];
 
