@@ -2,34 +2,6 @@
 
 const projects = [
   {
-    title: "PediaLink",
-    description:
-      "A Progressive Web App for pediatric health management — built as my capstone project and deployed live. Enables parents to book appointments, track vaccinations, and message their pediatrician in real time. Built with Angular PWA, Laravel, and MySQL, hosted on Hostinger.",
-    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
-    link: "https://pedialink.site",
-    vercelLink: "https://pedia-link.vercel.app",
-    github: "https://github.com/alexiseluzon/PediaEaseFrontend",
-    featured: true,
-  },
-  {
-    title: "AssetTrack",
-    description:
-      "A full-stack inventory management system for tracking items, borrowed items, and damaged goods across school levels. Features a dashboard with overdue monitoring, Excel report generation, and full item lifecycle management — from borrowing and returns to damage reporting and repair tracking. Built with Laravel, Vue and Inertia.js",
-    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
-    link: "https://inventory-laravel-inertia.pedialink.site",
-    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
-    featured: false,
-  },
-  {
-    title: "StaySwift",
-    description:
-      "A hotel reservation system for browsing rooms, managing bookings, and handling reservation workflows. Built with CSS, JS, Laravel, and MySQL, hosted on Hostinger.",
-    tags: ["CSS", "JS", "Laravel", "MySQL", "Hostinger"],
-    link: "https://stayswift.pedialink.site",
-    github: "https://github.com/alexiseluzon/LaravelLuminaries-StaySwift-Hotel-Reservation-Application",
-    featured: true,
-  },
-  {
   title: "Parts Marketplace",
       description:
         "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Features JWT authentication via httpOnly cookies, ownership-scoped CRUD authorization, and a GraphQL API (Apollo Server) backed by PostgreSQL (Neon) via Prisma. Includes toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
@@ -112,6 +84,33 @@ const projects = [
     link: "https://demo-td4j8bty.myshopify.com",
     github: null,
     featured: true,
+  },
+  {
+    title: "PediaLink",
+    description:
+      "A Progressive Web App for pediatric health management, built as my capstone project and deployed live with Angular SSR and offline support. Features a 138-rule clinical vaccine-scheduling engine (dependency chains, interval windows, automatic series-reset for missed boosters), real-time parent-pediatrician messaging via a hand-rolled Pusher HTTP integration, and vaccination records with smart search, PDF export, and print support. Backend migrated critical endpoints from Laravel to a custom PDO REST API with hand-rolled JWT auth for shared-hosting deployment, including an admin analytics dashboard with configurable reporting periods.",
+    tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
+    vercelLink: "https://pedia-link.vercel.app",
+    github: "https://github.com/alexiseluzon/PediaEaseFrontend",
+    featured: false,
+  },
+  {
+    title: "AssetTrack",
+    description:
+      "A full-stack inventory management system for tracking school-level assets across item lifecycle stages. Features automatic overdue detection via request-level middleware, a searchable/sortable inventory table with low-stock threshold flagging, CSV report generation, and a Chart.js dashboard breaking down totals by school level (Junior/Senior High). Built with Laravel, Inertia.js, and Vue.js.",
+    tags: ["Laravel", "Vue", "Inertia.js", "MySQL"],
+    // link: "https://inventory-laravel-inertia.pedialink.site",
+    github: "https://github.com/alexiseluzon/Inventory-Laravel-Inertia",
+    featured: false,
+  },
+  {
+    title: "StaySwift",
+    description:
+      "A Laravel hotel reservation system covering the full booking lifecycle. Features overlap-safe booking with auto-expiry of unpaid reservations via a scheduled task, Stripe Checkout payment integration, a multi-stage reservation lifecycle (pending, accepted, declined, ongoing, completed, cancelled, unattended) with admin reason-tracking, and an admin dashboard with monthly revenue analytics. Built with Laravel, CSS, JS, and MySQL, hosted on Hostinger.",
+    tags: ["CSS", "JS", "Laravel", "Stripe", "Chart.js", "MySQL", "Hostinger"],
+    // link: "https://stayswift.pedialink.site",
+    github: "https://github.com/alexiseluzon/LaravelLuminaries-StaySwift-Hotel-Reservation-Application",
+    featured: false,
   },
 ];
 

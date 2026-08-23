@@ -26,7 +26,7 @@ const skillGroups = [
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
-              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render"],
+              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render", "Stripe"],
   },
   {
     category: "Mapping/Visualization",
