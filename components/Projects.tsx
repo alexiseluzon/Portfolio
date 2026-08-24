@@ -2,14 +2,23 @@
 
 const projects = [
   {
-  title: "Parts Marketplace",
-      description:
-        "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Features JWT authentication via httpOnly cookies, ownership-scoped CRUD authorization, and a GraphQL API (Apollo Server) backed by PostgreSQL (Neon) via Prisma. Includes toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
-      tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "PostgreSQL", "Prisma", "Render", "Vercel"],
-      link: "https://partsmarketplace.vercel.app",
-      github: "https://github.com/alexiseluzon/Parts-Marketplace",
-      featured: true,
-    },
+    title: "Hapines",
+    description:
+      "A full-stack AI wellness check-in companion with session-aware conversation history and a prompt-engineered persona (safety-guarded against medical/crisis misuse). Built with SvelteKit and Hono, backed by Gemini and PostgreSQL (Neon/Drizzle), with automatic 30-day data retention via a scheduled cron job. CI/CD enforced via GitHub Actions (typecheck, lint, unit, and E2E gating) with branch protection, plus ESLint/Prettier tooling and 17 backend + 12 frontend tests covering chat flow, history, and safety guardrails.",
+    tags: ["SvelteKit", "Hono", "TypeScript", "Gemini API", "PostgreSQL", "Drizzle", "Vitest", "Playwright", "GitHub Actions"],
+    link: "https://hapines.vercel.app",
+    github: "https://github.com/alexiseluzon/hapines",
+    featured: true,
+  },
+  {
+    title: "Parts Marketplace",
+    description:
+      "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Features JWT authentication via httpOnly cookies, ownership-scoped CRUD authorization, and a GraphQL API (Apollo Server) backed by PostgreSQL (Neon) via Prisma. Includes toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
+    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "PostgreSQL", "Prisma", "Render", "Vercel"],
+    link: "https://partsmarketplace.vercel.app",
+    github: "https://github.com/alexiseluzon/Parts-Marketplace",
+    featured: true,
+  },
   {
     title: "TaskFlow",
     description:
@@ -17,6 +26,16 @@ const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "Vitest", "Vercel"],
     link: "https://frontendtaskflow.vercel.app",
     github: "https://github.com/alexiseluzon/taskflow-frontend",
+    featured: true,
+  },
+  {
+    title: "TestPipe",
+    description:
+      "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
+    tags: ["Jest", "Supertest", "Playwright", "Husky", "Azure DevOps", "CI/CD"],
+    link: null,
+    // link: "https://testpipe.vercel.app",
+    github: "https://github.com/alexiseluzon/Testing-and-CI",
     featured: true,
   },
   {
@@ -66,27 +85,17 @@ const projects = [
     github: "https://github.com/alexiseluzon/PageSpeed-Demo",
     featured: true,
   },
+  // {
+  //   title: "BundleDemo",
+  //   description:
+  //     "A Shopify practice project built to demonstrate theme customization and offer-building skills. Includes a custom Liquid section for trust badges and a 'Buy 2 Get 1 Free' bundle page using the Shopify AJAX Cart API. (password: bundledemo)",
+  //   tags: ["Shopify", "Liquid", "JavaScript"],
+  //   link: "https://demo-td4j8bty.myshopify.com",
+  //   github: null,
+  //   featured: true,
+  // },
   {
-    title: "TestPipe",
-    description:
-      "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
-    tags: ["Jest", "Supertest", "Playwright", "Husky", "Azure DevOps", "CI/CD"],
-    link: null,
-    // link: "https://testpipe.vercel.app",
-    github: "https://github.com/alexiseluzon/Testing-and-CI",
-    featured: true,
-  },
-  {
-    title: "BundleDemo",
-    description:
-      "A Shopify practice project built to demonstrate theme customization and offer-building skills. Includes a custom Liquid section for trust badges and a 'Buy 2 Get 1 Free' bundle page using the Shopify AJAX Cart API. (password: bundledemo)",
-    tags: ["Shopify", "Liquid", "JavaScript"],
-    link: "https://demo-td4j8bty.myshopify.com",
-    github: null,
-    featured: true,
-  },
-  {
-    title: "PediaLink",
+    title: "PediaLink", //Should be 2nd
     description:
       "A Progressive Web App for pediatric health management, built as my capstone project and deployed live with Angular SSR and offline support. Features a 138-rule clinical vaccine-scheduling engine (dependency chains, interval windows, automatic series-reset for missed boosters), real-time parent-pediatrician messaging via a hand-rolled Pusher HTTP integration, and vaccination records with smart search, PDF export, and print support. Backend migrated critical endpoints from Laravel to a custom PDO REST API with hand-rolled JWT auth for shared-hosting deployment, including an admin analytics dashboard with configurable reporting periods.",
     tags: ["Angular PWA", "Laravel", "MySQL", "Hostinger", "Vercel", "Pusher", "Laravel Echo"],
@@ -293,7 +302,7 @@ export default function Projects() {
                   gap: "0.4rem",
                 }}
               >
-                Request access on GitHub ↗
+                View on GitHub ↗
               </a>
             )}
           </div>

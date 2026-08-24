@@ -6,12 +6,13 @@ const skillGroups = [
     skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "TypeScript",
        "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", "JavaScript", 
        "Responsive Design", "Accessibility (WCAG 2.1)", "Cross-Browser Compatibility", 
-       "Performance Optimization", "Apollo Client", "GraphQL"],
+       "Performance Optimization", "Apollo Client", "GraphQL", "SvelteKit", "PWA Development",
+      ],
   },
   {
     category: "Backend",
     skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server", 
-      "JWT Authentication", "Serverless Functions"],
+      "JWT Authentication", "Serverless Functions", "Hono"],
   },
   {
     category: "Technical SEO",
@@ -21,12 +22,13 @@ const skillGroups = [
   },
   {
     category: "Database",
-    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)"],
+    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM"],
   },
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
-              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render", "Stripe"],
+              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render", "Stripe", 
+              "GitHub Actions (CI/CD)", "ESLint", "Prettier"],
   },
   {
     category: "Mapping/Visualization",
