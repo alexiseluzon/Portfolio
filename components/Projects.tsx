@@ -13,8 +13,8 @@ const projects = [
   {
     title: "Parts Marketplace",
     description:
-      "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Features JWT authentication via httpOnly cookies, ownership-scoped CRUD authorization, and a GraphQL API (Apollo Server) backed by PostgreSQL (Neon) via Prisma. Includes toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
-    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "PostgreSQL", "Prisma", "Render", "Vercel"],
+      "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Migrated from a custom JWT/Neon stack to Supabase Auth and PostgreSQL, with a role-based access control system (user/admin) enforced at two layers: resolver-level checks in the GraphQL API and Row Level Security policies at the database level. Includes a Postgres trigger auto-provisioning user profiles on sign-up, toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
+    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "Supabase", "PostgreSQL", "RBAC", "Row Level Security", "Render", "Vercel"],
     link: "https://partsmarketplace.vercel.app",
     github: "https://github.com/alexiseluzon/Parts-Marketplace",
     featured: true,

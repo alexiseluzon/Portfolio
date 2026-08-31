@@ -21,14 +21,18 @@ const skillGroups = [
       "Rich Results Test", "PageSpeed Insights", "Lighthouse Audits", "SEO Audits"],
   },
   {
-    category: "Database",
-    skills: ["MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM"],
+    category: "Database & Auth",
+    skills: ["Supabase (PostgreSQL, Auth, Row Level Security)", "MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM"],
+  },
+  {
+    category: "Authorization",
+    skills: ["Role-Based Access Control (RBAC)", "Row Level Security", "Ownership-Scoped CRUD", "JWT", "Multi-Tenant Permission Systems"],
   },
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
               "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render", "Stripe", 
-              "GitHub Actions (CI/CD)", "ESLint", "Prettier"],
+              "GitHub Actions (CI/CD)", "ESLint", "Prettier", "Cursor (AI-assisted development)"],
   },
   {
     category: "Mapping/Visualization",
