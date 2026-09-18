@@ -20,6 +20,15 @@ const projects = [
     featured: true,
   },
   {
+    title: "Onboarding Demo — Firebase Auth + Stripe Quiz Flow",
+    description:
+      "A full-stack multi-step onboarding demo built to match a React/Node/Firebase/Stripe job requirement. Features a 9-step resumable quiz (React Router) saving progress per-step to Postgres via Prisma, Firebase Auth (email/password + Google SSO) verified server-side via Admin SDK, and Stripe Elements checkout with server-defined pricing. Payment status is confirmed via a signature-verified Stripe webhook — not the client redirect — with a polling completion page that checks the database-backed source of truth. Includes a non-blocking HubSpot contact push, Jest/Supertest backend tests, Playwright E2E coverage, and GitHub Actions CI.",
+    tags: ["React", "Vite", "React Router", "Firebase Auth", "Node.js", "Express", "Prisma", "PostgreSQL", "Stripe", "HubSpot API", "Jest", "Playwright", "GitHub Actions", "Vercel", "Render"],
+    link: "https://onboarding-demo-front.vercel.app",
+    github: "https://github.com/alexiseluzon/onboarding-demo",
+    featured: true,
+  },
+  {
     title: "TaskFlow",
     description:
       "A full-stack task and project management app built to match MERN job requirements. Features JWT authentication with role-based authorization, RESTful API design, MongoDB with compound indexing, pagination, centralized error handling, and a responsive React dashboard. Includes unit and component tests (Vitest, Testing Library). Deployed serverless on Vercel with MongoDB Atlas.",

@@ -11,8 +11,8 @@ const skillGroups = [
   },
   {
     category: "Backend",
-    skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server", 
-      "JWT Authentication", "Serverless Functions", "Hono"],
+    skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server",
+      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK"],
   },
   {
     category: "Technical SEO",
@@ -21,8 +21,9 @@ const skillGroups = [
       "Rich Results Test", "PageSpeed Insights", "Lighthouse Audits", "SEO Audits"],
   },
   {
-    category: "Database & Auth",
-    skills: ["Supabase (PostgreSQL, Auth, Row Level Security)", "MySQL", "MongoDB", "PostgreSQL", "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM"],
+  category: "Database & Auth",
+    skills: ["Supabase (PostgreSQL, Auth, Row Level Security)", "MySQL", "MongoDB", "PostgreSQL",
+      "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM", "Firebase Auth"],
   },
   {
     category: "Authorization",
@@ -31,12 +32,12 @@ const skillGroups = [
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
-              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "JWT", "Render", "Stripe", 
-              "GitHub Actions (CI/CD)", "ESLint", "Prettier", "Cursor (AI-assisted development)"],
+              "Hostinger", "Vercel", "Pusher", "Laravel Echo", "Render", "Stripe",
+              "GitHub Actions (CI/CD)", "ESLint", "Prettier", "Cursor (AI-assisted development)", "HubSpot API"],
   },
   {
     category: "Mapping/Visualization",
-    skills: ["CSS", "ArcGIS", "Maps", "SDK for JS", "Chart.js"],
+    skills: ["ArcGIS", "Maps", "SDK for JS", "Chart.js"],
   },
   {
     category: "Testing",
