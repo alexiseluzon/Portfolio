@@ -2,30 +2,23 @@
 
 const projects = [
   {
-    title: "Hapines",
+    title: "DelivEasy",
     description:
-      "A full-stack AI wellness check-in companion with session-aware conversation history and a prompt-engineered persona (safety-guarded against medical/crisis misuse). Built with SvelteKit and Hono, backed by Gemini and PostgreSQL (Neon/Drizzle), with automatic 30-day data retention via a scheduled cron job. CI/CD enforced via GitHub Actions (typecheck, lint, unit, and E2E gating) with branch protection, plus ESLint/Prettier tooling and 17 backend + 12 frontend tests covering chat flow, history, and safety guardrails.",
-    tags: ["SvelteKit", "Hono", "TypeScript", "Gemini API", "PostgreSQL", "Drizzle", "Vitest", "Playwright", "GitHub Actions"],
-    link: "https://hapines.vercel.app",
-    github: "https://github.com/alexiseluzon/hapines",
+      "A full-stack delivery and inventory management platform with a vendor web dashboard, customer/rider mobile app, and a complete role-based order workflow. FastAPI backend (SQLAlchemy async, Supabase/Postgres) with JWT auth and ownership-scoped RBAC across four roles (admin/vendor/rider/customer). Features a server-enforced order state machine with race-safe rider order-claiming (conditional SQL updates prevent double-assignment), Expo push notifications for order-status and delivery broadcasts, and a cross-platform mobile app (Expo Router) with separate customer and rider flows. Deployed live: FastAPI on Render (Python 3.12, auto-migrating on deploy), Next.js dashboard on Vercel.",
+    tags: ["Next.js", "TypeScript", "Expo", "React Native", "FastAPI", "Python", "SQLAlchemy", "Supabase", "PostgreSQL", "JWT", "RBAC", "Alembic", "Pytest", "Render", "Vercel"],
+    caseStudyLink: "/case-studies/deliveasy-race-condition",
+    link: "https://deliver-easy.vercel.app",
+    github: "https://github.com/alexiseluzon/DeliverEasy",
     featured: true,
   },
   {
     title: "Parts Marketplace",
     description:
       "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Migrated from a custom JWT/Neon stack to Supabase Auth and PostgreSQL, with a role-based access control system (user/admin) enforced at two layers: resolver-level checks in the GraphQL API and Row Level Security policies at the database level. Includes a Postgres trigger auto-provisioning user profiles on sign-up, toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",
-    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "Supabase", "PostgreSQL", "RBAC", "Row Level Security", "Render", "Vercel"],
+    tags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "Express", "Supabase", "PostgreSQL", "RBAC", 
+      "Row Level Security", "Render", "Vercel"],
     link: "https://partsmarketplace.vercel.app",
     github: "https://github.com/alexiseluzon/Parts-Marketplace",
-    featured: true,
-  },
-  {
-    title: "Onboarding Demo — Firebase Auth + Stripe Quiz Flow",
-    description:
-      "A full-stack multi-step onboarding demo built to match a React/Node/Firebase/Stripe job requirement. Features a 9-step resumable quiz (React Router) saving progress per-step to Postgres via Prisma, Firebase Auth (email/password + Google SSO) verified server-side via Admin SDK, and Stripe Elements checkout with server-defined pricing. Payment status is confirmed via a signature-verified Stripe webhook — not the client redirect — with a polling completion page that checks the database-backed source of truth. Includes a non-blocking HubSpot contact push, Jest/Supertest backend tests, Playwright E2E coverage, and GitHub Actions CI.",
-    tags: ["React", "Vite", "React Router", "Firebase Auth", "Node.js", "Express", "Prisma", "PostgreSQL", "Stripe", "HubSpot API", "Jest", "Playwright", "GitHub Actions", "Vercel", "Render"],
-    link: "https://onboarding-demo-front.vercel.app",
-    github: "https://github.com/alexiseluzon/onboarding-demo",
     featured: true,
   },
   {
@@ -38,22 +31,52 @@ const projects = [
     featured: true,
   },
   {
-    title: "TestPipe",
-    description:
-      "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
-    tags: ["Jest", "Supertest", "Playwright", "Husky", "Azure DevOps", "CI/CD"],
-    link: null,
-    // link: "https://testpipe.vercel.app",
-    github: "https://github.com/alexiseluzon/Testing-and-CI",
-    featured: true,
-  },
-  {
     title: "Willow Demo — Full-Stack Follow-up Tracker",
     description:
       "A full-stack internal tool built with Next.js App Router, demonstrating Server Components, Server Actions, and API routes in one codebase. Backed by Prisma + PostgreSQL (Neon) with a relational schema (tickets → notes). Integrates a live n8n webhook workflow that creates tickets from external automation, mirroring a real low-code-to-code migration pattern. Includes disabled-state form validation, delete confirmation dialogs, and Asia/Manila-formatted timestamps.",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "n8n", "Server Actions", "Vercel"],
     link: "https://willow-demo.vercel.app/tickets",
     github: "https://github.com/alexiseluzon/Willow-Demo",
+    featured: true,
+  },
+  {
+    title: "Hapines",
+    description:
+      "A full-stack AI wellness check-in companion with session-aware conversation history and a prompt-engineered persona (safety-guarded against medical/crisis misuse). Built with SvelteKit and Hono, backed by Gemini and PostgreSQL (Neon/Drizzle), with automatic 30-day data retention via a scheduled cron job. CI/CD enforced via GitHub Actions (typecheck, lint, unit, and E2E gating) with branch protection, plus ESLint/Prettier tooling and 17 backend + 12 frontend tests covering chat flow, history, and safety guardrails.",
+    tags: ["SvelteKit", "Hono", "TypeScript", "Gemini API", "PostgreSQL", "Drizzle", "Vitest", "Playwright", 
+      "GitHub Actions"],
+    link: "https://hapines.vercel.app",
+    github: "https://github.com/alexiseluzon/hapines",
+    featured: true,
+  },
+  {
+    title: "Onboarding Demo — Firebase Auth + Stripe Quiz Flow",
+    description:
+      "A full-stack multi-step onboarding demo built to match a React/Node/Firebase/Stripe job requirement. Features a 9-step resumable quiz (React Router) saving progress per-step to Postgres via Prisma, Firebase Auth (email/password + Google SSO) verified server-side via Admin SDK, and Stripe Elements checkout with server-defined pricing. Payment status is confirmed via a signature-verified Stripe webhook — not the client redirect — with a polling completion page that checks the database-backed source of truth. Includes a non-blocking HubSpot contact push, Jest/Supertest backend tests, Playwright E2E coverage, and GitHub Actions CI.",
+    tags: ["React", "Vite", "React Router", "Firebase Auth", "Node.js", "Express", "Prisma", "PostgreSQL", "Stripe", 
+      "HubSpot API", "Jest", "Playwright", "GitHub Actions", "Vercel", "Render"],
+    link: "https://onboarding-demo-front.vercel.app",
+    github: "https://github.com/alexiseluzon/onboarding-demo",
+    featured: true,
+  },
+  {
+    title: "CleanCo — Programmatic SEO Demo",
+    description:
+      "A Next.js programmatic SEO system generating 60+ indexable location pages (state → city hierarchy) from a single data source. Includes auto-generated sitemap.xml, canonical tags, per-page LocalBusiness JSON-LD, and internal linking architecture — built to solve real indexing/crawlability problems at scale.",
+    tags: ["Next.js", "TypeScript", "Technical SEO", "JSON-LD", "Sitemap", "SSG"],
+    caseStudyLink: "/case-studies/cleanco-seo",
+    link: "https://cleanco-programmaticseo.vercel.app",
+    github: "https://github.com/alexiseluzon/Programmatic-SEO-Demo",
+    featured: true,
+  },
+  {
+    title: "PageSpeed",
+    description:
+      "A before/after case study demonstrating Core Web Vitals and technical SEO optimization. Fixed a deliberately unoptimized site: reduced image payload 99% (48MB→~500KB) via WebP conversion and responsive srcset delivery, deferred render-blocking JS/CSS, removed unused dependencies, and corrected invalid JSON-LD Organization schema to pass Google's Rich Results Test. Mobile Performance 64→90, Desktop Performance 65→99, SEO 82→100 (PageSpeed Insights).",
+    tags: ["Core Web Vitals", "JSON-LD", "WebP", "PageSpeed Insights", "Technical SEO"],
+    caseStudyLink: "/case-studies/pagespeed",
+    link: "https://pagespeed-demo.vercel.app",
+    github: "https://github.com/alexiseluzon/PageSpeed-Demo",
     featured: true,
   },
   {
@@ -75,23 +98,13 @@ const projects = [
     featured: true,
   },
   {
-    title: "CleanCo — Programmatic SEO Demo",
+    title: "TestPipe",
     description:
-      "A Next.js programmatic SEO system generating 60+ indexable location pages (state → city hierarchy) from a single data source. Includes auto-generated sitemap.xml, canonical tags, per-page LocalBusiness JSON-LD, and internal linking architecture — built to solve real indexing/crawlability problems at scale.",
-    tags: ["Next.js", "TypeScript", "Technical SEO", "JSON-LD", "Sitemap", "SSG"],
-    caseStudyLink: "/case-studies/cleanco-seo",
-    link: "https://cleanco-programmaticseo.vercel.app",
-    github: "https://github.com/alexiseluzon/Programmatic-SEO-Demo",
-    featured: true,
-  },
-  {
-    title: "PageSpeed",
-    description:
-      "A before/after case study demonstrating Core Web Vitals and technical SEO optimization. Fixed a deliberately unoptimized site: reduced image payload 99% (48MB→~500KB) via WebP conversion and responsive srcset delivery, deferred render-blocking JS/CSS, removed unused dependencies, and corrected invalid JSON-LD Organization schema to pass Google's Rich Results Test. Mobile Performance 64→90, Desktop Performance 65→99, SEO 82→100 (PageSpeed Insights).",
-    tags: ["Core Web Vitals", "JSON-LD", "WebP", "PageSpeed Insights", "Technical SEO"],
-    caseStudyLink: "/case-studies/pagespeed",
-    link: "https://pagespeed-demo.vercel.app",
-    github: "https://github.com/alexiseluzon/PageSpeed-Demo",
+      "A working example of a full testing pipeline: unit tests (Jest), integration tests (Supertest) against a live Express app, and E2E tests (Playwright) driving a real browser. Husky pre-commit hooks block bad commits locally, and an Azure DevOps pipeline runs the full suite on every push, gating deployment on passing tests. Verified live by intentionally breaking a function and confirming Husky rejected the commit.",
+    tags: ["Jest", "Supertest", "Playwright", "Husky", "Azure DevOps", "CI/CD"],
+    link: null,
+    // link: "https://testpipe.vercel.app",
+    github: "https://github.com/alexiseluzon/Testing-and-CI",
     featured: true,
   },
   // {

@@ -2,9 +2,13 @@
 
 const skillGroups = [
   {
+    category: "Languages",
+    skills: ["JavaScript", "TypeScript", "Python", "PHP", "SQL"],
+  },
+  {
     category: "Frontend",
-    skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "TypeScript",
-       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", "JavaScript", 
+    skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native",
+       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", 
        "Responsive Design", "Accessibility (WCAG 2.1)", "Cross-Browser Compatibility", 
        "Performance Optimization", "Apollo Client", "GraphQL", "SvelteKit", "PWA Development",
       ],
@@ -12,7 +16,7 @@ const skillGroups = [
   {
     category: "Backend",
     skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server",
-      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK"],
+      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK", "FastAPI"],
   },
   {
     category: "Technical SEO",
@@ -23,17 +27,19 @@ const skillGroups = [
   {
   category: "Database & Auth",
     skills: ["Supabase (PostgreSQL, Auth, Row Level Security)", "MySQL", "MongoDB", "PostgreSQL",
-      "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM", "Firebase Auth"],
+      "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM", "Firebase Auth", "SQLAlchemy (async)", "Alembic"],
   },
   {
     category: "Authorization",
-    skills: ["Role-Based Access Control (RBAC)", "Row Level Security", "Ownership-Scoped CRUD", "JWT", "Multi-Tenant Permission Systems"],
+    skills: ["Role-Based Access Control (RBAC)", "Row Level Security", "Ownership-Scoped CRUD", "JWT", 
+      "Multi-Tenant Permission Systems"],
   },
   {
     category: "Tools",
     skills: ["Git", "GitHub", "Husky (pre-commit hooks)", "Azure DevOps (CI/CD pipelines)", "VS Code",
               "Hostinger", "Vercel", "Pusher", "Laravel Echo", "Render", "Stripe",
-              "GitHub Actions (CI/CD)", "ESLint", "Prettier", "Cursor (AI-assisted development)", "HubSpot API"],
+              "GitHub Actions (CI/CD)", "ESLint", "Prettier", "Cursor (AI-assisted development)", 
+              "HubSpot API"],
   },
   {
     category: "Mapping/Visualization",
