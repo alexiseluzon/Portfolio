@@ -12,6 +12,15 @@ const projects = [
     featured: true,
   },
   {
+    title: "LearnRec",
+    description:
+      "A cross-platform learning-resource recommender: save courses, articles, and videos, rate them 1-5, and get tag-based recommendations from what you rated highly. One Expo (React Native) codebase ships to iOS, Android, and web via React Native Web. NestJS API with JWT auth, Google ID-token verification, DTO validation, and Prisma migrations on PostgreSQL (Neon). Web token storage falls back from SecureStore to localStorage, and a cross-platform alert helper replaces the no-op Alert.alert on web. Jest, Supertest, and React Native Testing Library coverage with GitHub Actions CI. Live demo account included; the API runs on a free tier, so the first request may take ~30s.",
+    tags: ["React Native", "Expo", "TypeScript", "NestJS", "PostgreSQL", "Prisma", "Neon", "JWT", "Google OAuth", "Jest", "Supertest", "GitHub Actions", "Render", "Vercel"],
+    link: "https://learnrec.vercel.app",
+    github: "https://github.com/alexiseluzon/LearnRec",
+    featured: true,
+  },
+  {
     title: "Parts Marketplace",
     description:
       "A full-stack inventory marketplace built to match a GraphQL/React/Node job requirement. Migrated from a custom JWT/Neon stack to Supabase Auth and PostgreSQL, with a role-based access control system (user/admin) enforced at two layers: resolver-level checks in the GraphQL API and Row Level Security policies at the database level. Includes a Postgres trigger auto-provisioning user profiles on sign-up, toast notifications, confirm dialogs for destructive actions, and full E2E flow verification.",

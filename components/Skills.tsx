@@ -7,8 +7,8 @@ const skillGroups = [
   },
   {
     category: "Frontend",
-    skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native",
-       "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", 
+    skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "Expo", 
+      "React Native Web", "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", 
        "Responsive Design", "Accessibility (WCAG 2.1)", "Cross-Browser Compatibility", 
        "Performance Optimization", "Apollo Client", "GraphQL", "SvelteKit", "PWA Development",
       ],
@@ -16,7 +16,7 @@ const skillGroups = [
   {
     category: "Backend",
     skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server",
-      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK", "FastAPI"],
+      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK", "FastAPI", "NestJS"],
   },
   {
     category: "Technical SEO",
@@ -32,7 +32,7 @@ const skillGroups = [
   {
     category: "Authorization",
     skills: ["Role-Based Access Control (RBAC)", "Row Level Security", "Ownership-Scoped CRUD", "JWT", 
-      "Multi-Tenant Permission Systems"],
+      "Multi-Tenant Permission Systems", , "Google OAuth 2.0"],
   },
   {
     category: "Tools",
