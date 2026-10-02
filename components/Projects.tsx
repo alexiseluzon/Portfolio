@@ -40,10 +40,10 @@ const projects = [
     featured: true,
   },
   {
-    title: "Willow Demo — Full-Stack Follow-up Tracker",
+    title: "Willow Demo — AI-Powered Support Ticket Tracker",
     description:
-      "A full-stack internal tool built with Next.js App Router, demonstrating Server Components, Server Actions, and API routes in one codebase. Backed by Prisma + PostgreSQL (Neon) with a relational schema (tickets → notes). Integrates a live n8n webhook workflow that creates tickets from external automation, mirroring a real low-code-to-code migration pattern. Includes disabled-state form validation, delete confirmation dialogs, and Asia/Manila-formatted timestamps.",
-    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "n8n", "Server Actions", "Vercel"],
+      "A full-stack Next.js ticket tracker with an AI layer: LLM triage with schema-validated structured output, RAG similar-ticket search (local embeddings + pgvector), and a tool-calling agent that proposes actions for user confirmation. Ticket creation via UI or a live n8n webhook, Slack-compatible alerts for urgent tickets, and a tested reliability layer (fallbacks, retries, rate limiting). Covered by Jest, Supertest and Playwright tests with CI. Similar-ticket search runs locally; the hosted demo skips it gracefully.",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "pgvector", "LLM", "RAG", "Tool Calling", "n8n", "Playwright", "Vercel"],
     link: "https://willow-demo.vercel.app/tickets",
     github: "https://github.com/alexiseluzon/Willow-Demo",
     featured: true,
@@ -73,7 +73,7 @@ const projects = [
     description:
       "A Next.js programmatic SEO system generating 60+ indexable location pages (state → city hierarchy) from a single data source. Includes auto-generated sitemap.xml, canonical tags, per-page LocalBusiness JSON-LD, and internal linking architecture — built to solve real indexing/crawlability problems at scale.",
     tags: ["Next.js", "TypeScript", "Technical SEO", "JSON-LD", "Sitemap", "SSG"],
-    caseStudyLink: "/case-studies/cleanco-seo",
+    caseStudyLink: "/case-studies/willow-demo",
     link: "https://cleanco-programmaticseo.vercel.app",
     github: "https://github.com/alexiseluzon/Programmatic-SEO-Demo",
     featured: true,
