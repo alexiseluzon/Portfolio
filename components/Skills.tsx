@@ -8,7 +8,7 @@ const skillGroups = [
   {
     category: "Frontend",
     skills: ["Angular", "Vue 3", "Ionic", "React", "Next.js", "Flutter", "React Native", "Expo", 
-      "React Native Web", "Tailwind CSS", "HTML", "Shopify (Liquid, theme customization)", "CSS", 
+      "React Native Web", "Tailwind CSS", "HTML", "CSS", 
        "Responsive Design", "Accessibility (WCAG 2.1)", "Cross-Browser Compatibility", 
        "Performance Optimization", "Apollo Client", "GraphQL", "SvelteKit", "PWA Development",
       ],
@@ -16,7 +16,8 @@ const skillGroups = [
   {
     category: "Backend",
     skills: ["REST APIs", "PHP", "Laravel", "Node.js", "Express", "GraphQL", "Apollo Server",
-      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK", "FastAPI", "NestJS"],
+      "JWT Authentication", "Serverless Functions", "Hono", "Firebase Admin SDK", "FastAPI", "NestJS",
+      "Convex", "Rate Limiting"],
   },
   {
     category: "Technical SEO",
@@ -27,12 +28,13 @@ const skillGroups = [
   {
   category: "Database & Auth",
     skills: ["Supabase (PostgreSQL, Auth, Row Level Security)", "MySQL", "MongoDB", "PostgreSQL",
-      "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM", "Firebase Auth", "SQLAlchemy (async)", "Alembic"],
+      "Prisma", "Neon (serverless PostgreSQL)", "Drizzle ORM", "Firebase Auth", "SQLAlchemy (async)", 
+      "Alembic", "Convex (real-time database)", "Clerk"],
   },
   {
     category: "Authorization",
     skills: ["Role-Based Access Control (RBAC)", "Row Level Security", "Ownership-Scoped CRUD", "JWT", 
-      "Multi-Tenant Permission Systems", , "Google OAuth 2.0"],
+      "Multi-Tenant Permission Systems", "Google OAuth 2.0"],
   },
   {
     category: "Tools",
@@ -47,7 +49,9 @@ const skillGroups = [
   },
   {
     category: "Testing",
-    skills: ["Jest", "Supertest (integration)", "Playwright (E2E)", "Vitest", "Testing Library (React)"],
+    skills: ["Jest", "Supertest (integration)", "Playwright (E2E)", "Vitest", "Testing Library (React)",
+      "convex-test (integration)"
+    ],
   },
 ];
 

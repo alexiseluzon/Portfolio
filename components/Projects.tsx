@@ -69,6 +69,15 @@ const projects = [
     featured: true,
   },
   {
+    title: "Knō Demo",
+    description:
+      "A real-time learning marketplace demo where signed-in users post and manage learning sessions. Built with Next.js (App Router), TypeScript, and Tailwind CSS on a Convex backend with Clerk authentication. Server-side validation, ownership-scoped deletes, and per-user rate limiting are enforced in Convex mutations, and the hostId is never exposed to clients. Includes confirm dialogs, toast feedback, inline field validation, and WCAG 2.1 AA basics (skip link, labels, focus states, ARIA). SEO-ready with metadata, JSON-LD, sitemap, and robots. Tested with Jest (unit), Vitest + convex-test (integration), and Playwright (E2E), with a GitHub Actions CI pipeline. Deployed on Vercel with a production Convex deployment.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Convex", "Clerk", "Jest", "Vitest", "Playwright", "GitHub Actions", "Vercel"],
+    link: "https://kno-demoo.vercel.app",
+    github: "https://github.com/alexiseluzon/kno-demo",
+    featured: false,
+  },
+  {
     title: "CleanCo — Programmatic SEO Demo",
     description:
       "A Next.js programmatic SEO system generating 60+ indexable location pages (state → city hierarchy) from a single data source. Includes auto-generated sitemap.xml, canonical tags, per-page LocalBusiness JSON-LD, and internal linking architecture — built to solve real indexing/crawlability problems at scale.",
